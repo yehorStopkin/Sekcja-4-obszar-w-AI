@@ -1,0 +1,14 @@
+.homepage-cards {
+	display: grid;
+	gap: 31px 24px;
+	grid-template-columns: repeat(2, 268px);
+
+	@media screen and (max-width: 834px) {
+		gap: 16px;
+		grid-template-columns: repeat(2, 240px);
+	}
+
+	@media screen and (max-width: 375px) {
+		grid-template-columns: 343px;
+	}
+}

@@ -1,0 +1,14 @@
+/// Root Styles file
+/// Here we define all the root variables we need for our project.
+/// For examples see Material Design color system: https://m2.material.io/design/color/the-color-system.html
+
+:root {
+	--color-background-main: #0f162d;
+	--color-background-card: rgba(39, 45, 66, 1);
+	--color-background-card-hovered: rgba(39, 45, 66, 0.8);
+	--color-box-shadow-card: rgba(108, 124, 255, 0.1);
+	--color-font-primary: #ffffff;
+	--font-size-description: 16px;
+	--font-weight-title: 500;
+	--font-weight-subtitle: 400;
+}
