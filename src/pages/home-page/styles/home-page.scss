@@ -20,16 +20,16 @@
 
 	& &__left-side {
 		color: var(--color-font-primary);
-		width: 467px;
+		max-width: 467px;
 		margin-right: 109px;
 
 		@media screen and (max-width: 834px) {
 			margin-right: 0;
-			width: 496px;
+			max-width: 496px;
 		}
 
 		@media screen and (max-width: 375px) {
-			width: 343px;
+			max-width: 343px;
 		}
 	}
 
